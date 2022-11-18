@@ -1,0 +1,75 @@
+body {
+    font-family:'inter';
+    src: url('Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+    font-style: normal;
+    font-size: normal;
+}
+
+.cajacontenedora{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    width:37.1875rem;
+    background-color: aqua;
+}
+
+.caja1{
+    width: 37.1875rem;
+    height:12.5rem;
+    background: rgb(158,83,101);
+    background: linear-gradient(180deg, rgba(158,83,101,1) 0%, rgba(158,83,101,1) 30%, rgba(255,255,255,1) 100%);
+    position: relative;
+    line-height:0;
+}
+
+#Nombre {
+    display:flex;
+    flex-direction: column;
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    align-items: flex-start;
+}
+
+.foto{
+    background-image: url(./images/PSFix_20220720_151938.jpeg);
+    background-size: cover;
+    background-position: top;
+    border-radius:150px;
+    right: 0rem;
+    width: 136px;
+    height: 186px;
+    position: absolute;
+    right: 5px;
+    top: 2px;
+}
+
+.caja2{
+    width: 37.1875rem;
+    height:62.5rem;
+    font-family: inter;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.columna1{
+    font-family: inter;
+    width: 40%;
+    height: 70%;
+    color: rgb(131, 45, 65);
+}
+
+.columna2{
+    font-family: inter;
+    width: 30%;
+    height: 100%;
+    background: rgb(158,83,101);
+    background: linear-gradient(0deg, rgba(158,83,101,1) 0%, rgba(158,83,101,1) 30%, rgba(255,255,255,1) 100%);
+    color: rgb(90, 4, 38);
+}
+
+.columna3{
+    font-family: inter;
+    width: 40%;
+    color: rgb(131, 45, 65);
+}
